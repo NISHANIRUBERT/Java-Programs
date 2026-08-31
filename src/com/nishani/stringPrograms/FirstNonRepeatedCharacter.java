@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class FirstNonRepeatedCharacter {
 	
-	private static Character firstUniqueCharacter(String string) {
+	public static Character firstUniqueCharacter(String string) {
 		
 		Map<Character, Integer> frequency = new LinkedHashMap<>();
 		
